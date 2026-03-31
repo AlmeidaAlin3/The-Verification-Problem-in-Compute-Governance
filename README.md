@@ -11,7 +11,7 @@ Many proposals for governing advanced AI rely on monitoring large-scale training
 
 This project explores whether hardware-level telemetry (e.g. power, utilization) contains information about how computation unfolds over time, not just how much compute is used.
 
-Simple examples suggest that different workloads — such as LLM training, LLM inference, and non-transformer training — can produce qualitatively different temporal patterns.
+Simple examples suggest that different workloads, such as LLM training, LLM inference, and non-transformer training, can produce qualitatively different temporal patterns.
 
 While highly preliminary, this raises the possibility that partial, non-intrusive signals could support some forms of external verification, even without access to internal logs or models.
 
