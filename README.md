@@ -17,10 +17,10 @@ These results do not solve the verification problem, but they suggest that non-i
 This repository is organized into three main components:
 
 - **Analysis/**  
-  Notebooks and scripts used to process, clean, and visualize telemetry data.
+  Notebook used for processing, analyzing, and visualizing GPU telemetry data across different workloads..
 
 - **Writeup/**  
-  Longer-form explanation of the project, including methodology, results, and discussion.
+  The full writeup, presenting the motivation, approach, illustrative results, and limitations.
 
 - **GPUTelemetrySampler/**  
   A C-based tool for collecting GPU telemetry (power, utilization, clocks, PCIe throughput).  
