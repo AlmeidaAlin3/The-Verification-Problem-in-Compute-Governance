@@ -7,8 +7,10 @@ Implications for AI safety and governance
 
 ## TL;DR
 
-Many proposals for governing advanced AI rely on monitoring large-scale training, but in practice it may be difficult to verify what GPUs are doing without intrusive access to proprietary software or data.
-This project examines whether hardware-level telemetry preserves information about how computation is organized over time. Initial comparisons suggest that different workloads — including LLM training, LLM inference, CNN training (ResNet50), and masked language modeling (BERT) — can produce distinguishable temporal patterns in these signals.
+Many proposals for governing advanced AI rely on monitoring large-scale training, but in practice it may be difficult to verify what GPUs are doing without intrusive access to proprietary software or data.  
+  
+This project examines whether hardware-level telemetry preserves information about how computation is organized over time. Initial comparisons suggest that different workloads — including LLM training, LLM inference, CNN training (ResNet50), and masked language modeling (BERT) — can produce distinguishable temporal patterns in these signals.  
+  
 These results do not solve the verification problem, but they suggest that non-intrusive hardware signals may offer a promising source of evidence about how compute is being used, without requiring access to sensitive model internals.
 
 
